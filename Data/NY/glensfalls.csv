@@ -1,0 +1,556 @@
+make and model,year,VIN,condition,cylinders,drive,fuel,color,odometer,size,title,transmission,type,price
+ford f-150,2001,None,None,None,None,gas,None,None,None,clean,manual,None,1200
+Mercedes Benz c240,2004,None,excellent,6 cylinders,4wd,gas,black,190000,mid-size,clean,automatic,sedan,4000
+Honda Civic Lx,2001,None,good,4 cylinders,fwd,gas,green,234000,mid-size,clean,automatic,sedan,1750
+Toyota Camry LE,2005,None,None,None,None,gas,None,None,None,clean,automatic,None,2500
+Honda CR-V EX,2004,None,None,None,None,gas,None,None,None,clean,automatic,None,1600
+chevrolet s10,1999,None,fair,6 cylinders,4wd,gas,custom,82,None,clean,automatic,pickup,550
+Chevy trailblazer,2005,None,good,6 cylinders,4wd,gas,None,158000,None,clean,automatic,SUV,2500
+toyota rav4,2017,None,None,None,None,gas,None,None,None,lien,automatic,None,22000
+ford f350 diesels powerstroke,2005,None,None,None,None,diesel,None,127000,None,clean,automatic,None,7000
+mazda mazda3,2012,JM1BL1VG2C1508772,excellent,4 cylinders,fwd,gas,black,102900,full-size,clean,manual,sedan,6995
+subaru outback,2003,None,good,6 cylinders,None,gas,green,299000,None,clean,automatic,wagon,2750
+Ford E-350 Extended Cargo Van,2006,1FTSS34L76HA19390,like new,8 cylinders,rwd,gas,white,124000,full-size,clean,automatic,van,6995
+"Saturn Ion ""2""",2004,1G8AK54F04Z131757,like new,4 cylinders,fwd,gas,black,108229,mid-size,clean,manual,sedan,1800
+Saab 9-5 Aero,2005,None,good,4 cylinders,fwd,gas,grey,131,None,clean,manual,sedan,6000
+Hyundai Elantra SE,2017,None,None,None,None,gas,None,None,None,clean,automatic,None,10900
+gmc 1500 sierra,1988,None,None,None,None,gas,None,None,None,clean,automatic,None,1500
+Subaru Impreza,2013,None,excellent,4 cylinders,None,gas,white,75800,None,clean,automatic,sedan,8975
+ford explorer sport trac,2002,None,fair,6 cylinders,4wd,gas,grey,111029,None,clean,automatic,truck,1000
+kia sorento awd,2011,None,None,None,None,gas,None,None,None,clean,automatic,None,7500
+toyota tundra 2wd truck,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,13499
+Dodge ram,2001,None,None,8 cylinders,4wd,gas,green,None,full-size,clean,automatic,None,1500
+kia sorento,2008,KNDJD735985843363,excellent,6 cylinders,rwd,gas,silver,128740,mid-size,clean,automatic,SUV,4200
+buick roadmaster estate wagon,1996,None,fair,8 cylinders,rwd,gas,green,208000,full-size,clean,automatic,wagon,550
+ford mustang,1966,C-Code,excellent,8 cylinders,None,gas,None,None,None,clean,automatic,None,28900
+chevy,2016,None,None,None,None,gas,None,16350,None,clean,manual,None,1
+Volvo V70 XC AWD,2002,None,None,5 cylinders,4wd,gas,None,161600,None,clean,automatic,None,2500
+Chrysler Town and Country,2012,None,good,None,fwd,gas,None,88000,full-size,lien,automatic,mini-van,10500
+Volkswagen GTI 1.8t,2005,None,None,None,None,gas,None,113000,None,clean,manual,None,5000
+Honda,2007,None,None,None,None,gas,None,200,None,clean,automatic,None,2700
+mazda 6s,2006,None,good,6 cylinders,fwd,gas,blue,126000,mid-size,clean,automatic,sedan,3000
+ford f-150,2001,None,fair,8 cylinders,None,other,None,None,None,clean,automatic,None,950
+dodge ram 2500,2007,None,excellent,6 cylinders,4wd,diesel,None,None,None,clean,manual,None,22000
+Dodge Cummins,1998,None,None,6 cylinders,rwd,diesel,silver,None,None,clean,automatic,None,3800
+audi allroad,2003,None,None,6 cylinders,fwd,gas,black,83000,None,clean,automatic,None,3500
+nissan ud,1991,None,None,None,None,diesel,None,None,None,clean,manual,None,10000
+jeep grand cherokee,2011,None,None,None,None,gas,None,None,None,clean,automatic,None,10000
+Ford F-150 XLT 4 x 4,2000,2FTZF1828YCA55607,good,8 cylinders,4wd,gas,green,116155,full-size,clean,automatic,pickup,2000
+kia forte,2010,KNAFU4A22A5287221,like new,4 cylinders,fwd,gas,brown,128044,mid-size,clean,automatic,sedan,4200
+infiniti fx35,2007,Jnras08w67x208313,excellent,6 cylinders,4wd,gas,grey,160413,full-size,clean,automatic,SUV,7900
+1992 Acura,1992,None,None,None,None,gas,None,None,None,clean,manual,None,23500
+Dodge Ram 2500,1999,None,good,6 cylinders,4wd,diesel,green,175000,full-size,clean,manual,truck,6000
+Nissan Frontier,2003,None,good,6 cylinders,4wd,gas,black,121000,None,clean,automatic,pickup,5250
+chevrolet monte carlo ss,2002,None,good,6 cylinders,None,gas,white,182000,full-size,clean,automatic,None,1200
+Overhead console,2013,None,None,None,None,gas,None,None,None,clean,automatic,None,4000
+chevrolet 1500 silverado,2002,None,None,None,None,gas,None,None,None,clean,automatic,None,1200
+nissan maxima,2004,None,excellent,6 cylinders,fwd,gas,None,None,None,clean,automatic,None,1400
+CHEVY,1984,None,good,8 cylinders,4wd,gas,orange,None,full-size,clean,manual,truck,8500
+silverado,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,1513
+BCNR33,1980,None,None,None,None,gas,white,None,mid-size,clean,manual,coupe,19900
+Dodge Neon 4 door,2003,None,good,None,None,gas,yellow,114500,None,clean,automatic,sedan,1000
+volkswagen super beetle,1971,None,None,None,None,gas,None,None,None,clean,manual,None,5700
+Ford f100,1960,None,excellent,8 cylinders,rwd,gas,grey,None,None,clean,automatic,truck,17500
+chevy impala ls,2007,None,excellent,6 cylinders,rwd,gas,silver,51028,full-size,clean,automatic,None,6295
+Ford Expedition custom,2000,None,good,8 cylinders,None,gas,orange,179000,full-size,clean,automatic,SUV,1000
+nissan altima,2010,None,None,None,None,gas,None,None,None,clean,automatic,None,2070
+Rat Rod,1951,None,None,None,None,other,None,None,None,missing,other,None,1750
+Dodge D150,1989,None,good,8 cylinders,rwd,gas,blue,95000,mid-size,clean,automatic,pickup,2000
+GMC Jimmy/Envoy,1998,None,excellent,6 cylinders,4wd,gas,brown,131000,mid-size,clean,automatic,SUV,2595
+ford taurus,2006,None,None,None,None,gas,None,None,None,clean,automatic,None,650
+gmc sanoma,1998,None,fair,6 cylinders,rwd,gas,red,132000,mid-size,clean,automatic,pickup,500
+ford f250 super duty,2004,None,good,None,4wd,gas,silver,77760,full-size,clean,automatic,truck,5800
+LAND ROVER DISCOVERY,2004,SALTP19494A834393,good,8 cylinders,None,gas,None,None,None,clean,automatic,None,750
+ford f450,2001,None,None,None,None,diesel,None,None,None,clean,automatic,None,7500
+honda civic,2006,None,good,4 cylinders,fwd,gas,red,160000,compact,clean,automatic,coupe,3250
+chrysler pacifica SPORT WAGON,2005,None,excellent,6 cylinders,fwd,gas,None,119065,mid-size,clean,automatic,wagon,3450
+Mercedes benz ml350,2009,None,excellent,6 cylinders,4wd,gas,black,80000,full-size,clean,automatic,SUV,1501
+Chevy camaro,1994,None,None,None,None,gas,None,None,None,clean,automatic,None,3500
+Mercury Cougar XR7-GT,1968,None,None,None,None,gas,None,None,None,clean,automatic,None,17000
+dodge durango,2006,None,good,6 cylinders,4wd,gas,silver,155,full-size,clean,automatic,SUV,2950
+Nissan 350z,2005,None,None,None,None,gas,None,None,None,clean,manual,None,8000
+Jeep Grand Cherokee,2007,None,None,None,None,gas,None,137000,None,clean,automatic,None,7300
+Toyota camry xle,1992,None,fair,6 cylinders,rwd,gas,None,140000,None,clean,automatic,sedan,750
+gmc sonoma,1998,None,None,None,rwd,gas,None,None,None,clean,automatic,pickup,1800
+Subaru Legacy,2004,None,good,None,None,gas,None,141000,None,clean,automatic,None,1200
+buick regal,1978,None,good,6 cylinders,rwd,gas,green,150000,full-size,clean,automatic,coupe,2000
+ford crown victoria,2010,None,None,8 cylinders,None,gas,blue,162000,None,clean,automatic,None,3000
+Kia Soul,2015,None,like new,other,fwd,electric,white,39064,compact,clean,automatic,hatchback,12995
+Dodge Magnum,2005,None,excellent,6 cylinders,rwd,gas,blue,78500,mid-size,clean,automatic,wagon,5200
+chevy k10,1987,None,None,None,None,gas,None,None,None,clean,manual,None,2700
+Ford f150,1996,None,good,6 cylinders,4wd,gas,None,None,full-size,clean,automatic,truck,1000
+ford explorer,2002,None,None,None,None,gas,None,188000,None,clean,automatic,None,3500
+Chevrolet Camaro RS,2016,None,excellent,6 cylinders,rwd,gas,blue,None,None,lien,automatic,coupe,25000
+mini cooper countryman,2011,None,like new,None,None,gas,None,49000,None,clean,automatic,None,3000
+Ford Focus SES,2009,None,excellent,4 cylinders,fwd,gas,blue,140000,mid-size,clean,automatic,sedan,3600
+nissan murano SE,2004,None,None,None,None,gas,None,None,None,clean,automatic,None,3900
+volkswagon jetta,2003,None,good,other,None,gas,black,130000,mid-size,clean,automatic,other,1000
+Chevrolet Impala LS,2006,None,None,None,None,gas,None,140000,None,clean,automatic,None,2900
+nissan altima,2013,None,good,None,fwd,gas,black,63000,None,clean,automatic,sedan,11200
+Nissan Altima GLE,1999,None,None,None,None,gas,None,None,None,clean,automatic,None,1800
+Nissan Altima GLE,1999,None,None,None,None,gas,None,None,None,clean,automatic,None,1800
+Dodge Neon,2002,None,None,None,None,gas,None,150000,None,clean,automatic,None,1800
+Acura MDX,2003,None,None,None,None,gas,None,None,None,clean,automatic,None,3495
+Suzuki reno,2006,None,None,None,None,gas,None,None,None,clean,automatic,None,1495
+ford crown victoria,2010,2FABP7BVXAX144511,excellent,8 cylinders,rwd,gas,black,125000,full-size,clean,automatic,sedan,4650
+honda accord ex,2001,0000000000000,good,6 cylinders,fwd,gas,black,189000,mid-size,clean,automatic,sedan,2000
+Oldsmobile Intrigue,2001,None,good,6 cylinders,fwd,gas,brown,167882,mid-size,clean,automatic,sedan,1400
+cr-v honda,2002,None,None,4 cylinders,None,gas,black,162000,None,clean,manual,SUV,2700
+Ford Focus 4Dr Sedan SE,2011,None,excellent,4 cylinders,fwd,gas,None,41000,None,clean,automatic,sedan,7000
+Dodge SRT4,2004,None,excellent,4 cylinders,fwd,gas,blue,None,None,clean,manual,None,6100
+Cam,2008,None,excellent,other,None,other,None,None,None,clean,other,other,17000
+buick regal,1995,None,good,6 cylinders,fwd,gas,blue,150000,mid-size,clean,automatic,sedan,1995
+Nissan Sentra S,2008,None,excellent,4 cylinders,fwd,gas,blue,None,mid-size,clean,automatic,sedan,2995
+Nissan Versa S,2008,None,excellent,4 cylinders,fwd,gas,grey,None,mid-size,clean,automatic,sedan,2995
+ford escape xlt,2011,None,like new,4 cylinders,fwd,gas,black,70,mid-size,clean,automatic,SUV,7900
+S,2008,None,good,4 cylinders,fwd,gas,black,120,compact,clean,automatic,None,2300
+Mazda Cs5,2016,None,excellent,4 cylinders,4wd,gas,silver,36000,mid-size,clean,automatic,None,16500
+Toyota,2007,None,None,None,None,gas,None,100,None,clean,automatic,None,5500
+mercury milan premier,2009,None,None,None,None,gas,None,170,None,clean,automatic,None,2200
+lincoln town car,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,8500
+lincoln town car,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,7500
+lincoln town car,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,7500
+nissan sentra 2.0 s,2008,None,excellent,None,None,gas,None,140,None,clean,automatic,None,3000
+Sport Limited,2005,None,None,None,None,gas,silver,120,None,clean,automatic,None,2000
+lexus es 300,2000,None,None,None,None,gas,None,200,None,clean,automatic,None,1800
+3,2010,None,None,None,None,gas,None,90,None,clean,manual,None,4500
+nissan altima 2.5 s,2006,None,good,4 cylinders,fwd,gas,blue,173000,mid-size,clean,automatic,sedan,2650
+nissan sentra 2.0 s,2008,None,None,None,None,gas,None,120,compact,clean,automatic,sedan,2200
+pontiac g6 4 door,2007,None,None,None,None,gas,None,None,None,clean,automatic,None,2000
+alcamino,1972,None,None,None,None,gas,None,None,None,clean,automatic,None,3500
+chevrolet suburban,2000,3GNFK16T8YG164042,good,8 cylinders,4wd,gas,black,170000,full-size,clean,automatic,SUV,2500
+kia spectra,2008,None,excellent,4 cylinders,fwd,gas,silver,42961,compact,clean,manual,hatchback,4900
+chevrolet trailblazer,2008,None,None,6 cylinders,4wd,gas,None,119000,None,clean,automatic,None,5999
+vw cabrio convertible,1999,None,fair,4 cylinders,None,gas,green,None,compact,clean,manual,convertible,1000
+chevrolet 1500 suburban,2008,None,good,8 cylinders,None,gas,None,160000,None,clean,automatic,SUV,12800
+chevrolet 1500 suburban,2008,None,good,8 cylinders,None,gas,None,160000,None,clean,automatic,SUV,12800
+kia forte,2010,None,like new,4 cylinders,fwd,gas,brown,128416,mid-size,clean,automatic,sedan,4200
+jaguar x-type 2.5,2002,None,None,None,None,gas,None,None,None,clean,automatic,None,4500
+FORD FLEX SEL FWD,2014,None,excellent,6 cylinders,fwd,gas,white,24750,None,clean,automatic,SUV,24000
+camaro z-28,1984,None,None,8 cylinders,None,gas,red,100000,None,clean,automatic,coupe,1000
+chevrolet 1500 silverado,1999,1GCGK29UXXE219670,good,8 cylinders,rwd,gas,white,183000,full-size,clean,automatic,pickup,2000
+honda civic lx,2008,None,good,4 cylinders,fwd,gas,blue,159000,mid-size,clean,automatic,sedan,4500
+toyota prius hybrid,2004,None,good,4 cylinders,fwd,hybrid,blue,198205,sub-compact,missing,automatic,sedan,500
+subaru legacy 2.5i limited,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,2000
+audi s5 quattro,2013,None,None,None,None,gas,None,66000,None,rebuilt,automatic,None,21995
+subaru wrx,2015,None,None,None,None,gas,None,31000,None,rebuilt,manual,None,16495
+Chevrolet Impala LTZ Limited,2016,None,None,None,None,gas,None,None,None,clean,automatic,None,13900
+GMC Sonoma,2000,None,good,4 cylinders,None,gas,blue,None,None,clean,automatic,None,1700
+ford f-150,2001,None,None,None,None,gas,None,None,None,clean,automatic,None,1200
+buick roadmaster estate wagon,1995,None,excellent,8 cylinders,rwd,gas,white,112000,full-size,clean,automatic,None,5800
+chevy,1964,None,None,None,None,gas,None,None,None,clean,automatic,None,6000
+mazda b4000,1999,None,None,None,None,gas,None,None,None,clean,manual,None,600
+honda accord ex,2003,None,good,4 cylinders,fwd,gas,silver,182000,mid-size,clean,automatic,coupe,1500
+Ford Ranger Edge SuperCab 4x4,2002,None,None,None,None,gas,None,77000,None,clean,automatic,None,4200
+volkswagen jetta gli,2004,None,excellent,4 cylinders,fwd,gas,grey,131000,None,clean,manual,None,5000
+pontiac firebird,1996,None,excellent,6 cylinders,None,gas,red,104000,None,clean,automatic,None,1000
+pontiac bonneville,2002,None,good,6 cylinders,fwd,gas,white,175000,full-size,clean,automatic,sedan,650
+jeep grand cherokee,2001,None,good,None,None,gas,blue,167425,None,clean,automatic,SUV,3700
+mazda b2000,1986,None,excellent,4 cylinders,rwd,gas,black,113584,compact,clean,manual,pickup,7500
+anything,1999,None,None,None,None,gas,None,None,None,clean,automatic,None,800
+kia spectrum,2003,None,good,None,None,gas,None,61000,None,clean,automatic,None,1100
+Dodge Magnum,2005,None,excellent,8 cylinders,rwd,gas,white,120000,full-size,clean,automatic,wagon,4950
+scion tc,2005,None,None,None,None,gas,None,None,None,clean,manual,None,2499
+chevy,1964,None,None,None,None,gas,None,None,None,clean,automatic,None,6000
+Toyota Tacoma 4x4 TRD Sport,2007,None,good,6 cylinders,4wd,gas,blue,139164,mid-size,clean,automatic,truck,12500
+saturn relay luxury,2005,None,good,6 cylinders,4wd,gas,None,144000,None,clean,automatic,mini-van,2750
+lexus rx 350 awd,2014,None,None,None,None,gas,None,None,None,rebuilt,automatic,None,22500
+chevrolet 1500 silverado,2003,None,None,None,4wd,gas,None,101000,None,clean,automatic,None,850
+Toyota Tacoma,2007,None,good,4 cylinders,rwd,gas,white,108000,None,clean,automatic,pickup,4800
+infiniti fx35,2007,Jnras08w67x208313,excellent,6 cylinders,4wd,gas,grey,160413,full-size,clean,automatic,SUV,7900
+kia forte,2010,KNAFu4a22a5287221,like new,4 cylinders,fwd,gas,brown,128044,mid-size,clean,automatic,sedan,4200
+Lexus IS 250,2008,None,None,None,None,gas,None,110000,None,rebuilt,automatic,None,1500
+Lexus IS 250,2008,None,None,None,None,gas,None,110000,None,rebuilt,automatic,None,1500
+hyundai accent,2000,None,fair,4 cylinders,fwd,gas,silver,None,compact,clean,automatic,hatchback,600
+Chevrolet Silverado,2001,None,None,None,None,diesel,None,None,None,clean,automatic,None,1000
+Nissan 1400 UD,2002,JNAUZU1J62A553080,good,4 cylinders,rwd,diesel,white,None,None,clean,automatic,truck,6500
+jeep willys,1962,None,None,None,None,gas,None,None,None,missing,manual,None,2250
+Ford F-150 4x4,2005,None,good,8 cylinders,4wd,gas,blue,None,None,clean,automatic,truck,11500
+Chevy Corvette L-82,1977,None,excellent,8 cylinders,rwd,gas,white,None,None,clean,automatic,coupe,10900
+Porsche 944,1987,None,excellent,4 cylinders,rwd,gas,red,80000,None,clean,manual,coupe,8500
+Honda Accord,2003,None,None,None,None,gas,None,None,None,clean,automatic,None,1
+Chevrolet Sedan Master Deluxe,1937,None,None,None,None,gas,None,None,None,clean,manual,None,8500
+Toyota SR5 pickup Truck,1993,None,good,6 cylinders,4wd,gas,None,118200,None,clean,automatic,None,2495
+dodge dakota,2008,None,good,6 cylinders,4wd,gas,silver,145000,None,clean,automatic,pickup,7000
+mercury monterey,2005,None,None,6 cylinders,None,gas,None,130000,None,clean,automatic,None,1500
+dodge caravan,2006,None,excellent,4 cylinders,fwd,gas,grey,80000,None,clean,automatic,mini-van,7900
+Rangers,2000,None,None,None,None,gas,None,81000,None,clean,automatic,None,4150
+volvo 850,1996,None,good,5 cylinders,fwd,gas,red,200000,mid-size,clean,automatic,None,1200
+Ford ranger,2000,None,None,None,None,gas,None,None,None,clean,manual,None,50
+nissan pathfinder,2006,None,good,6 cylinders,4wd,gas,black,115584,None,clean,automatic,None,7000
+scion xa,2006,None,None,None,None,gas,None,None,None,clean,automatic,None,3700
+chrysler pt cruiser,2009,None,like new,4 cylinders,fwd,gas,silver,19610,mid-size,clean,automatic,hatchback,6995
+chevrolet silverado,2006,1GCEK19BX6E131815,good,8 cylinders,4wd,gas,grey,128000,full-size,clean,automatic,pickup,6400
+chevrolet silverado,1993,None,good,8 cylinders,4wd,gas,grey,170000,None,clean,automatic,None,1200
+3500 SLT,2002,None,None,None,None,diesel,None,None,None,clean,automatic,None,1
+FORD RANGER,2003,1FTYR10D93PB75313,None,4 cylinders,rwd,gas,None,None,None,clean,automatic,None,1150
+chevrolet s10 pickup,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,1900
+jeep cherokee,2001,None,None,None,None,gas,None,None,None,clean,automatic,None,2000
+chevrolet nova,1977,None,None,None,None,gas,None,None,None,clean,automatic,None,5000
+gmc 1500 sierra,2014,None,excellent,6 cylinders,4wd,gas,brown,30000,full-size,clean,automatic,pickup,17999
+GMC,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,6999
+chevrolet silverado,1996,None,None,None,None,gas,None,None,None,clean,automatic,None,2200
+gmc 1500 sierra,2011,None,None,None,None,gas,None,60000,None,clean,automatic,None,22500
+Acura TL,2008,None,excellent,6 cylinders,None,gas,black,195000,mid-size,clean,automatic,sedan,4500
+Ford ranger,2000,None,None,None,None,gas,None,None,None,clean,manual,None,50
+chevy corvette,1999,None,like new,None,None,gas,grey,29600,None,clean,automatic,None,17500
+vw passat 1.8t,2003,None,None,None,None,gas,None,None,None,clean,automatic,None,1300
+Toyota Venza,2013,None,excellent,4 cylinders,None,gas,None,44300,None,clean,automatic,None,15000
+mazda tribute,2004,None,excellent,4 cylinders,4wd,gas,None,150000,mid-size,clean,automatic,SUV,2200
+hyundai elantra,2006,None,good,4 cylinders,fwd,gas,grey,195700,None,clean,automatic,hatchback,2100
+toyota camry,2011,None,excellent,None,None,gas,grey,173000,None,clean,automatic,sedan,6200
+"subaru impreza outback sport, aw",1999,None,None,4 cylinders,4wd,gas,green,None,None,clean,manual,wagon,550
+Toyota Corolla sport,2010,None,None,None,None,gas,red,123000,sub-compact,clean,automatic,None,7695
+Ford F-350 Super duty,2002,None,excellent,8 cylinders,4wd,gas,green,109000,full-size,clean,automatic,truck,6500
+jetta,2006,None,like new,None,4wd,gas,None,None,full-size,clean,automatic,None,1000
+mercedes benz ml350,2009,None,excellent,6 cylinders,None,gas,black,None,full-size,clean,automatic,SUV,1500
+chevy colorado,2005,None,None,None,None,gas,None,None,None,clean,automatic,None,2500
+audi a6 3.0 Quattro,2002,None,good,6 cylinders,4wd,gas,blue,131000,None,clean,automatic,None,2800
+honda accord,2003,None,good,4 cylinders,None,gas,None,85000,None,clean,manual,None,4000
+toyota camry le,2002,4T1BE32K02U505618,good,4 cylinders,fwd,gas,blue,181947,full-size,clean,automatic,sedan,2985
+chevrolet 1500 silverado,2003,None,fair,8 cylinders,4wd,gas,black,None,full-size,clean,automatic,pickup,1000
+pontiac solstice base 2dr conver,2006,None,like new,None,None,gas,black,18000,None,clean,manual,convertible,10000
+Dodge Durango,2003,None,good,8 cylinders,rwd,gas,silver,170000,full-size,clean,automatic,SUV,1500
+chevrolet silverado,1992,None,None,None,None,gas,None,195000,None,clean,automatic,None,1000
+chevrolet impala,2007,None,good,6 cylinders,fwd,gas,black,112000,full-size,clean,automatic,sedan,3900
+ford crown victoria police,2003,None,fair,None,None,gas,green,199699,full-size,clean,automatic,sedan,500
+jeep grand cherokee,1999,None,good,6 cylinders,4wd,gas,brown,14500,full-size,clean,automatic,None,2300
+maya sedan,2009,xxxxxxxxxxxxxxxxx,like new,other,fwd,electric,green,47,None,missing,automatic,sedan,3500
+Audi A4,2000,None,None,None,None,gas,None,None,None,clean,manual,None,500
+nissan maxima,2008,None,like new,6 cylinders,fwd,gas,blue,90000,mid-size,clean,automatic,sedan,5500
+nissan frontier,2004,None,None,None,None,gas,None,None,None,clean,manual,None,2800
+vw passat 1.8t,2002,None,good,4 cylinders,fwd,gas,black,None,mid-size,clean,other,sedan,1000
+Ford probe gt,1996,None,good,6 cylinders,fwd,gas,None,None,None,clean,manual,None,3500
+saab 9-5,1999,None,good,6 cylinders,None,gas,white,129000,None,clean,automatic,None,1500
+chevy impala ls,2011,None,None,None,None,gas,None,None,None,clean,automatic,None,7500
+toyota tacoma,2012,None,good,6 cylinders,4wd,gas,white,None,mid-size,clean,automatic,pickup,20000
+toyota camry,2007,None,good,6 cylinders,fwd,gas,silver,105085,None,clean,automatic,sedan,6800
+Chryser Town and Country,2013,None,None,None,None,gas,None,134636,None,clean,automatic,None,12995
+dodge durango,2003,None,good,8 cylinders,4wd,gas,None,248000,mid-size,clean,automatic,SUV,2000
+ford ranger,2007,None,None,None,None,gas,None,None,None,clean,automatic,None,5800
+chrysler pt cruiser,2010,None,None,None,None,gas,None,None,None,clean,automatic,None,5000
+toyota tundra 4wd truck,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,15995
+dodge journey sxt 4dr suv,2009,None,None,None,None,gas,None,None,None,clean,manual,None,6000
+jeep grand cherokee,2000,None,good,3 cylinders,4wd,gas,green,133000,full-size,clean,automatic,SUV,1000
+ford focus sel,2010,None,None,None,None,gas,None,None,None,clean,manual,None,7800
+chrysler 300,2002,None,None,None,None,gas,None,None,None,clean,manual,None,3000
+jeep patriot sport,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,7495
+FORD EXCURSION XLT,2000,None,good,10 cylinders,4wd,gas,blue,177000,full-size,clean,automatic,SUV,4500
+Chevy 2500,1990,None,good,8 cylinders,rwd,gas,red,None,full-size,clean,automatic,truck,750
+Buick Rainier,2005,None,good,6 cylinders,4wd,gas,blue,None,full-size,clean,automatic,SUV,1700
+chevy silverado 1500,1998,None,fair,8 cylinders,4wd,gas,black,1540000,None,clean,automatic,None,850
+toyota camry,1999,None,fair,4 cylinders,fwd,gas,blue,214500,None,clean,automatic,sedan,1000
+ford mustang convertible,1995,tba,fair,8 cylinders,rwd,gas,green,145000,mid-size,clean,manual,convertible,1300
+jeep wrangler,2000,None,good,None,None,gas,None,None,None,clean,manual,None,4900
+Subaru Wrx Premium,2015,None,excellent,None,None,gas,None,40000,None,lien,manual,None,23800
+jeep wrangler,2002,None,None,None,None,gas,None,130000,None,clean,manual,None,2700
+chevy silverado 1500,1998,None,fair,8 cylinders,4wd,gas,black,None,full-size,clean,automatic,pickup,850
+Mazda 3,2005,None,fair,4 cylinders,fwd,gas,None,216000,compact,clean,manual,sedan,750
+ford f-150,1997,2ftdx1723vca68643,None,8 cylinders,None,gas,blue,43000,full-size,parts only,automatic,pickup,600
+Volkswagen Passat Gls,2002,None,good,4 cylinders,fwd,gas,green,172000,None,clean,automatic,wagon,800
+chevrolet trailblazer,2004,None,None,None,None,gas,None,None,None,clean,automatic,None,800
+Chrysler PT Cruiser,2006,None,good,None,None,gas,purple,116000,None,clean,automatic,None,975
+toyota sienna,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,675
+volvo 240 wagon,1993,None,good,None,None,gas,None,334000,None,clean,automatic,wagon,1250
+mercury cougar,1972,None,good,8 cylinders,rwd,gas,green,94000,None,clean,automatic,None,9500
+gmc 2500 sierra,1999,None,None,None,None,gas,None,None,None,clean,automatic,None,2500
+chrysler sebring,2001,None,excellent,6 cylinders,None,gas,red,None,mid-size,clean,automatic,convertible,3500
+audi a4 quattro,2008,None,like new,4 cylinders,4wd,gas,blue,100003,mid-size,clean,other,sedan,7500
+ford ranger,2000,None,fair,6 cylinders,rwd,gas,red,160000,None,clean,automatic,pickup,1200
+chevrolet impala,2010,None,excellent,6 cylinders,fwd,gas,black,48000,full-size,clean,automatic,sedan,4250
+Ford Bronco,1996,None,None,None,None,gas,None,None,None,clean,automatic,None,3000
+Chevy,2001,None,good,None,None,gas,None,None,None,clean,automatic,None,3000
+dodge ram 2500 cummins,1995,None,None,None,None,diesel,None,None,None,clean,automatic,None,1111
+saturn,2000,None,good,4 cylinders,fwd,gas,black,170000,mid-size,clean,automatic,sedan,1500
+Jaguar xk8,1999,None,excellent,8 cylinders,rwd,gas,red,94000,None,clean,automatic,convertible,6200
+honda pilot ex-l,2012,None,like new,6 cylinders,4wd,gas,silver,105000,full-size,clean,automatic,SUV,18000
+dodge ram 2500,2007,None,None,6 cylinders,4wd,diesel,black,None,None,clean,manual,truck,22000
+audi allroad,2003,None,excellent,6 cylinders,fwd,gas,black,83000,None,clean,automatic,None,3500
+Dodge Cummins,1998,None,None,None,rwd,diesel,silver,None,None,clean,automatic,None,3800
+Nissan UD,1991,None,None,None,None,diesel,None,None,None,clean,manual,None,10000
+Nissan UD,1991,None,None,None,None,diesel,None,None,None,clean,manual,None,10000
+ford thunderbird,2017,None,None,None,None,gas,None,None,None,clean,manual,None,1
+ford thunderbird,2017,None,None,None,None,gas,None,None,None,clean,manual,None,1
+ford f-150,2011,None,None,None,None,gas,None,None,None,clean,automatic,None,1
+Toyota Sienna,2012,None,None,None,None,gas,None,None,None,clean,automatic,None,10000
+cavalier chevrolet,2005,None,None,None,None,gas,None,None,None,clean,manual,None,1500
+Mercedes Benz S320,1997,None,excellent,None,rwd,gas,None,144500,None,clean,automatic,None,3495
+Honda civic,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,1
+kenworth w900l,2000,None,None,None,None,diesel,None,None,None,clean,manual,None,6500
+honda element ex,2006,None,None,None,None,gas,None,None,None,clean,automatic,None,3500
+ford f-250,2012,None,excellent,8 cylinders,4wd,diesel,white,176000,None,lien,automatic,None,28000
+all,2018,None,None,None,None,other,None,None,None,clean,other,None,1
+chevy silverado 1500,2005,None,None,None,None,gas,None,None,None,clean,automatic,None,3800
+ford explorer,2000,None,fair,6 cylinders,4wd,gas,red,143000,mid-size,clean,automatic,SUV,500
+AMC JEEP CJ7,1984,None,good,6 cylinders,4wd,gas,yellow,50000,full-size,rebuilt,manual,SUV,12000
+Nissan Versa SL W/Navigaiton,2012,3N1CN7AP7CL834103,excellent,4 cylinders,fwd,gas,None,109000,compact,clean,automatic,sedan,5995
+dodge ram cummins 3500 laramie,2003,None,None,None,None,diesel,None,173000,None,clean,automatic,None,8500
+dodge challenger r/t,2010,None,excellent,None,None,gas,purple,67000,None,clean,manual,None,19500
+bmw 328xi,2010,None,excellent,6 cylinders,4wd,gas,black,130000,mid-size,clean,manual,sedan,7500
+Volks,2009,None,fair,5 cylinders,None,gas,black,None,mid-size,clean,manual,None,900
+Pontiac,2005,None,good,6 cylinders,fwd,gas,black,150000,full-size,clean,automatic,sedan,1600
+jeep wrangler,1987,None,like new,8 cylinders,4wd,gas,black,12000,None,clean,automatic,convertible,16800
+gmc yukon slt,1997,None,good,8 cylinders,4wd,gas,white,153725,full-size,clean,automatic,SUV,2500
+land rover,2010,None,None,None,None,gas,None,None,None,clean,automatic,None,13544
+Jeep Liberty 4wd 4dr Sport,2005,None,good,6 cylinders,4wd,gas,blue,134000,None,clean,automatic,SUV,3500
+Dodge Ram 2500,1998,None,None,None,None,diesel,blue,None,None,salvage,automatic,None,8500
+Oldsmobile cutless,1999,None,None,None,None,gas,None,102000,None,clean,automatic,None,600
+gmc sierra,2004,None,excellent,8 cylinders,4wd,gas,red,None,None,clean,automatic,truck,8900
+Honda Pilot,2012,None,like new,6 cylinders,4wd,gas,grey,105000,full-size,salvage,automatic,SUV,18000
+toyota tacoma,1996,None,fair,6 cylinders,rwd,gas,grey,230000,mid-size,salvage,automatic,pickup,495
+dodge durango limited,2007,None,good,8 cylinders,4wd,gas,grey,None,full-size,clean,automatic,None,2000
+Buick Riviera,1995,1G4GD121XS4700582,good,6 cylinders,fwd,gas,red,136487,full-size,clean,automatic,coupe,2995
+chevy suburban 1500,1998,None,salvage,8 cylinders,4wd,gas,blue,190000,full-size,clean,automatic,SUV,750
+hyundai sonata,2009,None,excellent,4 cylinders,fwd,gas,custom,141000,None,clean,automatic,sedan,4000
+JEEP,1961,None,None,None,None,gas,None,None,None,missing,manual,None,3000
+BMW 540i,1998,None,fair,8 cylinders,rwd,gas,None,137000,None,clean,automatic,None,2200
+toyota camry le,2007,None,excellent,6 cylinders,fwd,gas,green,222922,mid-size,clean,automatic,sedan,4500
+chevrolet silverado,2005,1gcjk33g65f925007,fair,8 cylinders,4wd,gas,red,196000,full-size,lien,automatic,pickup,5000
+Chevy equinox,2005,None,good,None,None,gas,red,None,mid-size,clean,automatic,SUV,3000
+Odyssey,2011,None,None,None,None,gas,None,None,None,clean,automatic,None,10000
+dodge dakota,1990,None,None,None,None,gas,None,None,None,clean,manual,None,850
+chevy,1964,None,None,None,None,gas,None,None,None,clean,automatic,None,6000
+chevrolet silverado,2002,None,None,None,None,gas,None,None,None,clean,automatic,None,4000
+chevy 1500,1994,None,good,8 cylinders,4wd,gas,blue,135000,None,clean,automatic,None,600
+Suzuki sx4,2009,None,excellent,4 cylinders,None,gas,silver,None,None,clean,automatic,hatchback,5999
+Suzuki sx4,2009,None,excellent,4 cylinders,None,gas,silver,None,None,clean,automatic,hatchback,5999
+chevrolet impala,2000,None,good,6 cylinders,None,gas,None,90000,None,clean,automatic,None,2000
+chevrolet s10 pickup,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,1900
+lincoln tc,1986,None,excellent,8 cylinders,rwd,gas,black,None,full-size,clean,automatic,None,5000
+chevrolet impala,2000,None,fair,None,None,gas,red,100000,None,clean,automatic,sedan,400
+subaru impreza sedan wrx sti,2007,None,None,None,None,gas,None,None,None,clean,manual,None,16999
+Nissan Titan SV,2013,1N6AA0EC9DN302090,like new,8 cylinders,4wd,gas,white,44000,full-size,clean,automatic,truck,24999
+chevrolet aveo,2010,None,excellent,4 cylinders,fwd,gas,silver,91500,None,clean,automatic,sedan,3400
+cadillac cts,2008,1g6 DJ57748015469,excellent,6 cylinders,rwd,gas,silver,84000,mid-size,clean,automatic,sedan,8400
+saturn,2000,None,good,4 cylinders,fwd,gas,grey,None,None,clean,automatic,sedan,1000
+jeep grand cherokee limited,2015,1C4RJFBG8FC796554,excellent,6 cylinders,4wd,gas,grey,69850,mid-size,clean,automatic,SUV,22900
+chevrolet 1500 silverado,2006,1GCEK19B36Z168617,good,8 cylinders,4wd,gas,grey,104000,full-size,clean,automatic,None,9000
+Dodge 2/12 ton,1952,None,good,6 cylinders,None,gas,None,None,None,clean,manual,None,2300
+Mazda Tribute,2004,None,excellent,4 cylinders,4wd,gas,None,None,mid-size,clean,automatic,SUV,2200
+honda cr-v,1997,None,None,None,None,gas,None,124000,None,clean,automatic,None,1200
+chevrolet equinox,2005,None,fair,6 cylinders,4wd,gas,grey,160000,None,clean,automatic,SUV,420
+Ford Transit-250,2016,None,like new,6 cylinders,rwd,gas,silver,18000,full-size,lien,automatic,van,24000
+Ford truck,1947,None,good,8 cylinders,rwd,gas,None,None,None,clean,manual,None,18500
+Chevy 2500HD,2003,None,None,None,None,gas,None,135000,None,clean,automatic,None,12500
+lincoln continental town car,1980,None,None,None,None,gas,None,12800,None,clean,automatic,None,3800
+dodge durango,2011,None,excellent,6 cylinders,None,gas,red,None,None,clean,automatic,SUV,16000
+dodge durango,2011,None,excellent,6 cylinders,None,gas,red,None,None,clean,automatic,SUV,16000
+acura,2008,None,None,None,None,gas,None,108,None,clean,automatic,None,2
+chevrolet silverado,1998,None,None,None,None,gas,None,None,None,clean,automatic,None,2500
+pontiac grand prix gt,2007,None,excellent,6 cylinders,None,gas,None,None,full-size,clean,automatic,None,1650
+dodge ram 1500,2012,None,like new,8 cylinders,4wd,gas,grey,35000,None,clean,automatic,pickup,20000
+dodge caliber,2007,None,excellent,4 cylinders,fwd,gas,blue,148000,compact,clean,automatic,None,3250
+toyota rav4,2007,JTMBD31V875114995,excellent,4 cylinders,4wd,gas,white,94600,compact,clean,automatic,SUV,9888
+chevy impala,2005,None,excellent,6 cylinders,fwd,gas,red,None,full-size,clean,automatic,other,800
+Omni 024,1981,None,good,4 cylinders,fwd,gas,white,70000,None,clean,automatic,None,1700
+Toyota 4 runner,1994,None,like new,6 cylinders,4wd,gas,None,None,None,clean,automatic,None,3500
+jeep liberty,2004,None,None,None,None,gas,None,None,None,clean,automatic,None,55
+dodge durango limited awd gas,2004,None,fair,8 cylinders,None,gas,None,None,None,clean,automatic,None,1800
+chevy impala,2005,None,None,None,None,gas,None,None,None,clean,automatic,None,1800
+Chevy,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,5500
+ford f 350,2004,1FTSX31P04EC99094,excellent,8 cylinders,4wd,diesel,blue,180000,None,clean,automatic,truck,5750
+lincoln mkz 4dr sdn awd,2011,3LNHL2JC0BR773340,excellent,6 cylinders,4wd,gas,grey,48000,None,clean,automatic,sedan,11995
+Chevrolet Chevelle,1967,None,None,None,None,gas,None,None,None,clean,automatic,None,4000
+Ford Ranger,1997,None,None,None,None,gas,None,184000,None,clean,automatic,None,800
+saturn vue,2006,None,None,4 cylinders,None,gas,None,211000,None,clean,manual,None,1500
+ford e350 van,2002,1FDWE35L92HB37406,good,None,rwd,gas,white,89307,mid-size,clean,automatic,van,8000
+Jeep Patriot,2014,None,like new,4 cylinders,4wd,gas,grey,25805,compact,salvage,automatic,SUV,13995
+BMW 330i,2002,None,excellent,6 cylinders,rwd,gas,black,91000,mid-size,clean,manual,sedan,5000
+Chevy Sonic,2014,None,None,None,None,gas,None,138000,None,clean,automatic,None,4600
+Mazda Tribute,2004,None,excellent,4 cylinders,4wd,gas,None,150000,mid-size,clean,automatic,SUV,2200
+mgb convertible,1977,GHN54H435539,fair,4 cylinders,rwd,gas,red,98731,compact,missing,manual,convertible,1000
+Dodge ram,2003,None,None,None,None,gas,blue,None,full-size,clean,automatic,truck,7500
+nissan altima,2003,None,None,None,None,gas,silver,None,compact,clean,manual,None,800
+hyundai sonata,2006,None,good,6 cylinders,fwd,gas,grey,147000,full-size,clean,automatic,other,2000
+Buick rendevous,2004,None,good,6 cylinders,None,gas,red,200000,None,clean,automatic,None,600
+Saturn ion,2004,None,good,4 cylinders,fwd,gas,None,67000,None,clean,automatic,None,2600
+ford taurus,2008,1FAHP27W48G127654,good,6 cylinders,4wd,gas,grey,118768,full-size,clean,automatic,None,4800
+ford mustang 5.0,2014,None,like new,8 cylinders,rwd,gas,black,24000,None,lien,manual,None,25000
+ford explorer eddie bauer,2000,None,excellent,None,None,gas,None,None,None,clean,automatic,SUV,4000
+Dodge Ram,2001,None,fair,8 cylinders,4wd,gas,green,51,full-size,clean,automatic,None,3000
+Chevrolet Monte Carlo,1971,None,None,None,None,gas,None,None,None,clean,automatic,None,3000
+Ford Thunderbird,1960,None,fair,None,None,gas,red,None,None,clean,automatic,None,3000
+ford focus,2001,None,good,4 cylinders,fwd,gas,silver,95000,sub-compact,clean,automatic,sedan,2100
+ford fusion se,2007,None,fair,4 cylinders,fwd,gas,blue,180000,mid-size,clean,manual,sedan,1800
+lincoln town car,2003,None,good,8 cylinders,rwd,gas,None,158000,full-size,clean,automatic,sedan,2500
+alfa romeo 164,1991,ZAREA33A2M605301,fair,6 cylinders,fwd,gas,white,87000,mid-size,clean,manual,sedan,2500
+gmc sierra 2500 hd,2002,None,excellent,8 cylinders,4wd,diesel,None,100000,None,clean,automatic,truck,18000
+ford ranger,2003,None,good,6 cylinders,rwd,gas,white,None,None,clean,automatic,pickup,1995
+HONDA ACCORD,2009,None,like new,4 cylinders,None,gas,None,None,None,clean,automatic,sedan,1500
+Jeep Grand Cherokee,1998,None,good,6 cylinders,4wd,gas,blue,250000,full-size,clean,automatic,SUV,2200
+jeep cherokee,2010,None,good,8 cylinders,4wd,gas,red,67000,full-size,clean,automatic,SUV,5500
+ford econoline,2001,None,fair,8 cylinders,rwd,diesel,white,606000,full-size,clean,automatic,van,1800
+Jeep Wrangler,2012,None,like new,6 cylinders,4wd,gas,black,100000,full-size,clean,manual,truck,26500
+dodge dakota slt,2004,None,None,None,None,gas,None,109441,None,clean,automatic,None,2000
+chevy s10 pickup,2001,None,good,None,None,gas,None,87000,None,clean,automatic,None,1
+jeep grand cherokee limited,2014,None,like new,6 cylinders,4wd,gas,red,45500,full-size,lien,automatic,SUV,26495
+GMC sierra 4x4 runs great!,2003,None,None,None,None,gas,None,None,None,clean,automatic,None,2950
+Honda accord ex-l,2013,None,excellent,None,None,gas,None,None,None,clean,automatic,None,3855
+ford focus se 4dr sedan,2011,None,excellent,None,None,gas,None,41000,None,clean,automatic,None,7000
+Honda Accord,2004,None,None,None,None,gas,None,None,None,clean,automatic,None,856
+chevy,1964,None,None,None,None,gas,None,None,None,clean,automatic,None,6000
+chevrolet tahoe,2003,None,None,None,None,gas,None,99400,None,clean,automatic,None,1580
+dodge dakota,2002,None,good,6 cylinders,4wd,gas,black,65500,mid-size,clean,manual,None,1
+mazda 3,2007,None,good,4 cylinders,fwd,gas,black,166741,full-size,clean,automatic,sedan,3175
+vw cabriolet,2001,None,fair,4 cylinders,fwd,gas,blue,190,compact,clean,manual,convertible,1100
+Mercedes Benz 500 SEC,1983,None,fair,8 cylinders,rwd,gas,blue,50000,None,clean,automatic,coupe,5200
+towing package chevrolet,2014,None,None,None,None,gas,None,None,None,clean,automatic,None,14000
+triumph spitfire 1500,1979,None,None,None,None,gas,None,None,None,clean,manual,None,12000
+GMC- tandom,1973,None,fair,6 cylinders,None,diesel,red,None,None,clean,automatic,truck,3500
+All kinds,2018,None,None,None,None,other,None,None,None,clean,other,None,1
+nissan sentra,2008,None,good,4 cylinders,fwd,gas,grey,None,mid-size,clean,automatic,coupe,4400
+Jeep Wrangler,1993,None,good,None,None,gas,black,None,None,clean,manual,None,2600
+mazda mx 5 miata,2006,None,new,4 cylinders,rwd,gas,custom,None,compact,clean,manual,convertible,210
+mitsubishi galant,2009,None,excellent,4 cylinders,fwd,gas,white,130000,mid-size,clean,automatic,sedan,2650
+honda cr-v,2015,None,excellent,4 cylinders,4wd,gas,grey,58000,full-size,clean,automatic,None,15700
+2014 SUBARU CROSSTREX,2014,None,like new,4 cylinders,4wd,gas,white,24000,None,clean,automatic,SUV,18400
+ford f-250,2016,None,like new,None,None,gas,None,4100,None,clean,automatic,None,39950
+dodge durango,2005,None,None,8 cylinders,4wd,gas,black,150000,full-size,clean,automatic,SUV,1200
+toyota scion xb,2006,None,excellent,4 cylinders,fwd,gas,green,197000,compact,clean,automatic,SUV,3300
+Ford Escape,2005,None,None,None,None,gas,None,145000,None,clean,automatic,None,700
+mercury mariner,2007,None,good,6 cylinders,4wd,gas,black,None,mid-size,clean,automatic,SUV,3200
+buick century,1999,None,good,6 cylinders,fwd,gas,green,88000,full-size,clean,automatic,sedan,2200
+dodge ram 1500,2008,None,good,8 cylinders,4wd,gas,white,None,full-size,clean,manual,pickup,7500
+1997,1997,None,None,None,None,gas,None,None,None,clean,manual,None,2000
+subaru outback,2005,None,excellent,6 cylinders,4wd,gas,white,150000,full-size,clean,automatic,sedan,6000
+dodge durango,2004,None,None,None,None,gas,None,None,None,clean,automatic,None,2200
+jeep wrangler unlimited 4wd,2013,None,good,None,None,gas,None,None,None,lien,manual,None,30000
+nissan frontier,2002,None,excellent,4 cylinders,rwd,gas,blue,66000,mid-size,clean,automatic,pickup,5900
+jeep cherokee,1999,None,like new,6 cylinders,4wd,gas,purple,104000,full-size,clean,automatic,SUV,5995
+chevrolet colorado,2005,None,excellent,4 cylinders,4wd,gas,white,122000,mid-size,clean,automatic,truck,8000
+dodge avenger,2008,None,fair,4 cylinders,None,gas,black,200000,full-size,clean,other,sedan,750
+1379,1990,None,None,None,None,diesel,None,None,None,clean,manual,None,29900
+bmw x3,2009,None,like new,None,None,gas,grey,112000,None,lien,automatic,SUV,12000
+Ford Fusion SE 4dr Sedan,2011,3FAHP0HA9BR271465,excellent,4 cylinders,fwd,gas,blue,72000,mid-size,clean,automatic,sedan,7000
+All types,2018,None,None,None,None,other,None,None,None,clean,other,None,1
+Troyer TD 2.5,2015,None,None,None,None,gas,None,None,None,clean,manual,None,4000
+volvo s40,2010,None,excellent,5 cylinders,fwd,gas,white,115000,compact,clean,automatic,sedan,9900
+ford f-150 flareside,1992,None,excellent,8 cylinders,rwd,gas,blue,148000,full-size,clean,manual,pickup,5500
+ford ranger xlt,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,500
+dodge ram,2003,None,None,None,None,gas,None,None,None,clean,automatic,None,9500
+chevy express,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,4300
+TOYOTA TACOMA,1999,None,excellent,None,None,gas,None,None,None,clean,automatic,None,950
+Chevy k30,1988,None,None,None,None,gas,None,None,None,clean,automatic,None,2800
+Chevy suburban,2000,None,good,None,4wd,gas,black,170000,None,clean,automatic,None,3000
+cadillac deville,1999,None,good,8 cylinders,rwd,gas,white,79000,full-size,clean,automatic,None,1500
+corvette stingray,1975,None,None,None,None,gas,None,None,None,clean,manual,None,8500
+volkswagen beetle,2001,None,None,None,None,gas,None,None,None,clean,manual,None,850
+kia forte,2010,Knafu4a22a5287221,like new,4 cylinders,fwd,gas,red,128044,compact,clean,automatic,sedan,4200
+chevrolet silverado,1996,None,None,None,None,gas,None,None,None,clean,automatic,None,2200
+chevrolet silverado,2002,None,None,None,None,gas,None,None,None,clean,automatic,None,4000
+gmc jimmy,1999,None,good,6 cylinders,4wd,gas,green,209845,full-size,clean,automatic,SUV,1200
+oldsmobile intrigue,2001,None,fair,None,None,gas,None,167000,None,clean,automatic,None,900
+Dodge Ram 1500 4x4,2001,None,good,8 cylinders,4wd,gas,black,127000,None,clean,automatic,pickup,2000
+ford f-150,2014,1FTFW1ET7EKD23054,excellent,6 cylinders,4wd,gas,blue,None,None,lien,automatic,truck,27500
+Ford 150,1996,None,None,6 cylinders,rwd,gas,red,95000,None,clean,manual,pickup,2000
+kia forte,2010,None,like new,4 cylinders,fwd,gas,red,128044,mid-size,clean,automatic,sedan,4200
+Subaru WRX,2002,None,good,None,None,gas,silver,136000,mid-size,clean,manual,None,5500
+Subaru WRX,2002,None,good,None,None,gas,silver,136000,mid-size,clean,manual,None,5500
+jeep grand cherokee,1999,1J4GW58S0XC591126,fair,None,4wd,gas,black,235780,None,clean,automatic,None,600
+Lincoln Continental,1963,3Y82N417408,good,8 cylinders,None,gas,None,97407,None,clean,automatic,None,5500
+chevrolet corvette stingray,2014,1G1YJ2D70E5132844,excellent,8 cylinders,rwd,gas,white,7000,None,clean,manual,coupe,49995
+dodge ram,2003,None,None,None,None,gas,None,160000,None,clean,automatic,None,6000
+dodge ram 1500,2003,None,None,8 cylinders,rwd,gas,white,106423,full-size,clean,automatic,van,400
+Chevy impala LT,2008,None,excellent,6 cylinders,fwd,gas,black,166000,full-size,clean,automatic,sedan,4595
+Jeep Wrangler,2002,None,None,None,None,gas,None,109000,None,clean,automatic,None,6000
+hyundai sonata limited 4dr sedan,2009,5npeu46c59h559031,fair,4 cylinders,fwd,gas,blue,75000,mid-size,clean,automatic,sedan,5000
+all,2018,None,None,None,None,other,None,None,None,clean,other,None,1
+buick lesabre custom,2005,1G4HP52K45U175034,salvage,6 cylinders,fwd,gas,custom,87400,full-size,clean,automatic,sedan,1000
+Ford Escape,2001,None,None,None,None,gas,None,None,None,clean,automatic,None,1500
+mazda 5,2006,None,good,5 cylinders,None,gas,white,162000,full-size,clean,manual,other,1100
+mazda cx-9,2007,None,good,6 cylinders,None,gas,blue,156426,None,clean,automatic,SUV,5200
+chevrolet equinox,2010,None,None,None,None,gas,None,96989,None,clean,automatic,None,14000
+ford explorer eddie bauer,2001,None,good,None,rwd,gas,white,200000,full-size,clean,automatic,None,1200
+chevrolet s-10,2001,None,fair,6 cylinders,rwd,gas,white,84000,None,clean,automatic,pickup,2250
+12885,2004,None,None,None,None,gas,None,200000,None,clean,manual,None,3800
+mitsubishi endeavor,2007,None,excellent,6 cylinders,4wd,gas,black,None,None,clean,automatic,SUV,5300
+Mazda Tribute,2004,None,excellent,4 cylinders,4wd,gas,None,None,mid-size,clean,automatic,SUV,2200
+Cheverlot Uplander,2006,None,fair,None,None,gas,white,167000,None,clean,manual,None,1800
+chevy malibu,2017,None,new,4 cylinders,fwd,gas,grey,4500,mid-size,clean,automatic,sedan,319
+AUDI A6 S-LINE 4.2 V8,2008,None,good,8 cylinders,4wd,gas,black,175000,mid-size,clean,other,sedan,7000
+dodge ram,2003,None,good,8 cylinders,4wd,gas,black,129000,full-size,clean,manual,pickup,6500
+ford mustang convertible,1995,tba,fair,8 cylinders,rwd,gas,green,145000,mid-size,clean,manual,convertible,1395
+dodge ram 1500,2012,1C6RD7KTXCS164366,good,8 cylinders,4wd,gas,white,140000,full-size,lien,manual,truck,14599
+chevy c10,1967,None,None,None,None,gas,None,None,None,clean,automatic,None,5700
+Jeep Cherokee,1997,None,None,None,None,gas,None,None,None,clean,automatic,None,1000
+Dodge Avenger,2013,1C3CDZAB9DN755702,excellent,4 cylinders,None,gas,black,56375,mid-size,clean,automatic,sedan,7600
+chevrolet 1500 silverado,2012,1GCRKSE72CZ116870,excellent,8 cylinders,4wd,gas,white,49236,full-size,clean,automatic,truck,23995
+infiniti g35 coupe,2008,JNKCV64E18M120755,excellent,6 cylinders,rwd,gas,black,38917,None,clean,automatic,coupe,14995
+hyundai santa fe,2013,KM8SR4HF0DU008754,excellent,6 cylinders,fwd,gas,black,56971,full-size,clean,automatic,SUV,17995
+ford focus,2014,1fadp3f28el338488,excellent,4 cylinders,fwd,gas,grey,80000,None,clean,automatic,None,7000
+chevrolet camaro,2015,2G1FA1E39F9174415,excellent,6 cylinders,rwd,gas,black,21741,None,clean,manual,coupe,19995
+chevrolet tahoe,2013,1GNSKCE00DR329948,excellent,8 cylinders,4wd,gas,None,43729,full-size,clean,automatic,SUV,37995
+chevrolet 1500 silverado,2014,1GCVKREC1EZ159796,excellent,8 cylinders,4wd,gas,red,44416,full-size,clean,automatic,truck,27995
+jeep wrangler,1994,None,good,4 cylinders,4wd,gas,red,137707,None,clean,manual,None,3500
+toyota tundra,2008,5TBBT54108S461507,excellent,8 cylinders,4wd,gas,silver,65123,full-size,clean,automatic,truck,20988
+jeep,2008,None,None,None,None,gas,None,73000,None,clean,automatic,SUV,2200
+subaru impreza,2002,None,None,None,None,gas,None,171000,None,clean,automatic,None,1500
+chevy malibu ls,2005,1G1ZT54895F132991,salvage,6 cylinders,fwd,gas,red,100000,mid-size,salvage,automatic,coupe,500
+toyota camry,2002,None,good,6 cylinders,None,gas,None,250000,None,clean,automatic,sedan,2800
+gmc envoy,2004,None,None,6 cylinders,None,gas,blue,150000,None,clean,automatic,SUV,1500
+chevy tahoe,1995,None,None,None,None,gas,None,None,None,clean,automatic,None,1900
+chevrolet aveo,2011,None,good,4 cylinders,fwd,gas,grey,18165,compact,clean,automatic,hatchback,5500
+Plymonth,1970,None,good,8 cylinders,rwd,gas,red,29000,full-size,clean,automatic,convertible,6250
+subaru outback 2.5i,2003,4S3BH675437630427,good,4 cylinders,4wd,gas,white,174237,mid-size,clean,automatic,wagon,1800
+all,2018,None,None,None,None,other,None,None,None,clean,other,None,1
+Ford Mustang Convertible,1996,None,good,6 cylinders,None,gas,white,None,None,clean,automatic,convertible,2800
+chevy silverado 1500,2008,None,good,6 cylinders,None,gas,blue,225000,None,clean,automatic,pickup,6900
+ford econoline,2001,None,fair,8 cylinders,None,diesel,white,None,full-size,clean,automatic,van,1800
+Jeep Wrangler JK,2016,1c4ajwag5gl307799,new,6 cylinders,None,gas,green,1200,None,clean,automatic,None,30000
+Mazda 5,2006,None,good,5 cylinders,None,gas,white,None,full-size,clean,manual,other,1200
+ford expedition,2001,None,excellent,None,4wd,gas,None,201630,None,clean,automatic,None,1000
+chevrolet 1500 silverado,2015,1GCVKREH4FZ200631,excellent,8 cylinders,4wd,gas,black,26160,full-size,clean,automatic,truck,28995
+honda civic ex,2002,None,excellent,4 cylinders,fwd,gas,blue,119100,compact,clean,automatic,sedan,2650
+Honda Civic LX,2005,None,None,None,None,gas,None,None,None,clean,manual,None,1300
+Ford Escape,1994,1FMYU93154DA04670,fair,None,None,gas,green,184000,None,clean,automatic,None,950
+Mercury Mariner,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,4350
+mercury mariner,2008,None,None,None,None,gas,None,None,None,clean,automatic,None,4350
+chevrolet silverado,1996,None,None,None,None,gas,None,None,None,clean,automatic,None,2200
+Dodge truck,1986,None,good,8 cylinders,4wd,gas,blue,None,full-size,clean,automatic,truck,1500
+gmc sierra 3500,2001,None,None,8 cylinders,4wd,gas,brown,None,full-size,clean,automatic,truck,6200
+GMC Sierra,2011,None,excellent,8 cylinders,4wd,gas,grey,114301,full-size,clean,automatic,pickup,17995
+mitsubishi eclipse gs,2008,None,None,None,None,gas,None,61000,None,clean,manual,None,6900
+subaru baja,2003,None,None,None,None,gas,None,None,None,clean,manual,None,10350
+Wrangler - Jeep,1993,None,fair,6 cylinders,4wd,gas,red,None,mid-size,clean,automatic,SUV,4500
+Ford SHO,1989,None,fair,6 cylinders,fwd,gas,red,128000,mid-size,clean,manual,sedan,1000
+chrysler 300c,2006,None,None,None,None,gas,None,120000,None,clean,automatic,None,7000
+gmc 1500 sierra,2004,None,good,8 cylinders,4wd,gas,None,230000,full-size,clean,automatic,None,3000
+toyota camry,1994,None,excellent,4 cylinders,fwd,gas,red,78000,None,clean,automatic,coupe,3000
+toyota tundra 4wd truck,2000,None,good,8 cylinders,4wd,gas,None,96000,None,clean,automatic,None,5500
+chrysler concorde lxi,2000,None,good,6 cylinders,fwd,gas,custom,79000,full-size,clean,automatic,sedan,2750
+Ford Mustang GT,1995,None,None,None,None,gas,None,None,None,clean,manual,None,16000
+all,2018,None,None,None,None,other,None,None,None,clean,other,None,1
+Honda Pilot,2010,None,None,None,None,gas,None,None,None,clean,automatic,None,12000
+Kia Sedona,2014,None,excellent,4 cylinders,fwd,gas,black,63276,full-size,clean,automatic,mini-van,13495
+Kia Optima,2015,None,like new,4 cylinders,fwd,gas,black,13627,full-size,salvage,automatic,sedan,12995
+FORDFREESTYLE,2005,None,good,6 cylinders,fwd,gas,silver,10900,compact,clean,other,SUV,700
+volvo c70,2002,None,None,5 cylinders,fwd,gas,None,196000,None,clean,automatic,coupe,900
+mazda 3,2014,JM1BM1L71E1131936,excellent,4 cylinders,fwd,gas,blue,33500,compact,clean,manual,hatchback,11650
+Ford Explorer Eddie Bauer,1992,1FMDU34X8NUE.....,good,6 cylinders,4wd,gas,green,187000,mid-size,clean,automatic,SUV,1750
+Infiniti G37X premium,2013,None,None,6 cylinders,None,diesel,None,None,None,clean,automatic,None,17800
+Cutlass,1975,None,good,8 cylinders,rwd,gas,None,None,full-size,clean,automatic,coupe,2600
+gmc terrain,2010,None,excellent,6 cylinders,None,gas,None,55281,None,clean,automatic,SUV,10500
+Honda Civic,2000,None,good,4 cylinders,fwd,gas,green,166,compact,parts only,automatic,None,800
+toyota highlander,2011,5TDBK3EH2BS047310,excellent,6 cylinders,4wd,gas,black,82000,None,clean,automatic,SUV,15995
+honda civic lx,2004,None,good,4 cylinders,fwd,gas,black,None,sub-compact,clean,automatic,sedan,3200
+ford f-150,2003,None,good,8 cylinders,4wd,gas,red,None,mid-size,clean,manual,pickup,3800
+chevy k3500,2000,None,None,None,None,gas,None,None,None,clean,automatic,None,5000
+chevy tahoe,2000,None,good,8 cylinders,rwd,gas,black,180000,full-size,clean,automatic,SUV,1000
+mazda 6,2004,None,excellent,6 cylinders,fwd,gas,green,127000,None,clean,manual,sedan,4000
+volkswagen passat gls 1.8t,2002,None,good,None,None,gas,green,169560,None,clean,automatic,wagon,7654321
+civic sedan honda,2012,None,excellent,4 cylinders,None,gas,grey,None,None,clean,manual,sedan,7500
+ford f350 diesel powerstroke,2008,None,None,None,None,diesel,grey,118300,None,clean,automatic,truck,30000
+2000 zx ninja 900,2000,None,good,None,None,gas,None,26000,None,clean,manual,None,2000
+dodge coupe 2 door,1949,None,good,6 cylinders,rwd,gas,None,None,full-size,clean,manual,coupe,4800
+Dodge,2014,None,excellent,6 cylinders,None,gas,grey,87000,full-size,lien,automatic,None,17995
+ford explorer sport,2001,None,fair,6 cylinders,None,gas,blue,137052,mid-size,clean,automatic,SUV,1200
+jeep,2005,None,good,8 cylinders,None,gas,None,None,None,clean,automatic,SUV,2000
+volvo s40,2010,None,excellent,5 cylinders,4wd,gas,white,114500,compact,clean,automatic,sedan,9900
+ford mustang convertible gt,2002,None,good,8 cylinders,rwd,gas,grey,135000,None,clean,automatic,convertible,3200
+Nissan Altima,2006,None,None,None,None,gas,None,None,None,clean,manual,None,1995
+Chevy Suburban,1995,None,fair,8 cylinders,4wd,gas,brown,None,full-size,clean,automatic,SUV,2500
+Subaru outback wagon,2003,None,None,None,None,gas,blue,None,None,clean,automatic,wagon,3400
+cadillac deville,2003,None,good,8 cylinders,fwd,gas,white,166000,full-size,clean,automatic,sedan,2000
+ford ranger,1998,None,excellent,4 cylinders,rwd,gas,green,47000,None,clean,manual,truck,4500
+ford mustang,1965,None,good,8 cylinders,rwd,gas,custom,None,compact,clean,manual,coupe,15000
+ford ranger,2000,None,good,4 cylinders,rwd,gas,red,None,None,clean,automatic,pickup,1500
