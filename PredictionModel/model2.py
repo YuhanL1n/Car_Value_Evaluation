@@ -1,11 +1,15 @@
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LinearRegression, Ridge, RidgeCV, ElasticNet, Lasso, LassoCV, LassoLarsCV
+from sklearn.linear_model import LinearRegression, Lasso, Ridge, SGDRegressor, ElasticNet
+from sklearn.svm import SVR
 from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn import datasets, linear_model, preprocessing, svm
 from sklearn.preprocessing import StandardScaler, Normalizer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
+from sklearn.kernel_ridge import KernelRidge
+import matplotlib
+import matplotlib.pyplot as plt
 
 def preprocess(dataFile):
     df = pd.read_csv(dataFile, sep=',', header=0, encoding='cp1252')
@@ -19,7 +23,7 @@ def preprocess(dataFile):
     #### Removing the outliers
     dedups = dedups[
         (dedups.yearOfRegistration <= 2017)
-        & (dedups.yearOfRegistration >= 1950)
+        & (dedups.yearOfRegistration >= 1990)
         & (dedups.price >= 100)
         & (dedups.price <= 100000)
         & (dedups.powerPS >= 10)
@@ -55,13 +59,22 @@ def stat():
 def model(dataset):
     Y = dataset['price']
     X = dataset.drop(['price'], axis='columns', inplace=False)
-    Y = np.log1p(Y)
+
+    #matplotlib.rcParams['figure.figsize'] = (12.0, 6.0)
+    plt.figure()
+    prices = pd.DataFrame({"1. Original": Y, "2.Log": np.log1p(Y)})
+    prices.hist()
+    plt.show()
+
+
+    '''Y = np.log1p(Y)
     # Percent of the X array to use as training set. This implies that the rest will be test set
     test_size = .25
 
     # Split into train and validation
     X_train, X_val, Y_train, Y_val = train_test_split(X, Y, test_size=test_size, random_state=3)
     print(X_train.shape, X_val.shape, Y_train.shape, Y_val.shape)
+
     lr = LinearRegression()
     lr.fit(X_train,Y_train)
     print ('-----Linear Regression-----')
@@ -69,29 +82,60 @@ def model(dataset):
     print lr.score(X_train,Y_train)
     print 'Test Data R2:',
     print lr.score(X_val,Y_val)
-    rg = Ridge()
+
+    param_grid = {"alpha": [1e-15, 1e-10, 1e-8, 1e-4, 1e-3, 1e-2, 1, 5, 10, 20, 50]}
+    trg = GridSearchCV(estimator=Ridge(), param_grid=param_grid, cv=5, n_jobs=-1, verbose=1)
+    trg.fit(X_train,Y_train)
+    bp= trg.best_params_
+    rg = Ridge(alpha=bp['alpha'])
     rg.fit(X_train,Y_train)
     print ('-----Ridge Regression-----')
     print 'Training Data R2:',
     print rg.score(X_train,Y_train)
     print 'Test Data R2:',
     print rg.score(X_val,Y_val)
-    lo = Lasso()
+
+
+    tlo = GridSearchCV(estimator=Lasso(), param_grid=param_grid, cv=2, n_jobs=-1, verbose=5)
+    tlo.fit(X_train,Y_train)
+    bp= trg.best_params_
+    lo = Lasso(alpha=bp['alpha'])
     lo.fit(X_train,Y_train)
     print ('-----Lasso-----')
     print 'Training Data R2:',
     print lo.score(X_train,Y_train)
     print 'Test Data R2:',
     print lo.score(X_val,Y_val)
-    rf = RandomForestRegressor()
 
+    en = ElasticNet()
+    en.fit(X_train,Y_train)
+    print ('-----Elastic Net-----')
+    print 'Training Data R2:',
+    print en.score(X_train,Y_train)
+    print 'Test Data R2:',
+    print en.score(X_val,Y_val)
+
+    param_grid = {"C": [1e0,1e1,1e2,1e3]
+        , "gamma": np.logspace(-2,2,5)}
+
+    tsvr = GridSearchCV(estimator=SVR(kernel='rbf'), param_grid=param_grid, cv=5, n_jobs=-1, verbose=1)
+    tsvr.fit(X_train,Y_train)
+    bp= tsvr.best_params_
+    svr= SVR(kernel='rbf', C=bp['C'], gamma=bp['gamma'])
+    print ('-----Support Vector-----')
+    print 'Training Data R2:',
+    print svr.score(X_train,Y_train)
+    print 'Test Data R2:',
+    print svr.score(X_val,Y_val)
+
+    rf = RandomForestRegressor()
     param_grid = {"criterion": ["mse"]
         , "min_samples_leaf": [3]
         , "min_samples_split": [3]
         , "max_depth": [10]
         , "n_estimators": [500]}
 
-    gs = GridSearchCV(estimator=rf, param_grid=param_grid, cv=2, n_jobs=-1, verbose=1)
+    gs = GridSearchCV(estimator=rf, param_grid=param_grid, cv=2, n_jobs=-1, verbose=5)
     gs = gs.fit(X_train, Y_train)
     bp = gs.best_params_
     forest = RandomForestRegressor(criterion=bp['criterion'],
@@ -100,11 +144,11 @@ def model(dataset):
                                    max_depth=bp['max_depth'],
                                    n_estimators=bp['n_estimators'])
     forest.fit(X_train, Y_train)
-    print ('-----Random Forest-----')
+    print ('-----Random Forest -----')
     print 'Training Data R2:',
     print forest.score(X_train,Y_train)
     print 'Test Data R2:',
-    print forest.score(X_val,Y_val)
+    print forest.score(X_val,Y_val)'''
 
 
 
