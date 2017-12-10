@@ -12,6 +12,7 @@ from sklearn.kernel_ridge import KernelRidge
 import matplotlib
 import matplotlib.pyplot as plt
 import pickle
+from sklearn.externals import joblib
 
 
 def preprocess(dataFile):
@@ -43,7 +44,6 @@ def preprocess(dataFile):
 
     print df.describe()
     df['VIN'].fillna(value='None', inplace=True)
-    regex_pat = re.compile(r'^((?!None).)*$', flags=re.IGNORECASE)
     df['VIN'] = df['VIN'].replace(to_replace='^((?!None).)*$', value='Yes', regex=True)
     print df['VIN'].unique()
     df['make and model'] = df['make and model'].str.lower()
@@ -67,17 +67,18 @@ def preprocess(dataFile):
               'transmission', 'type']
     les = {}
 
-    for l in labels:
-        les[l] = preprocessing.LabelEncoder()
+    ''' l in labels:
+        les[l] = preprocessing.LabelBinarizer()
         les[l].fit(df[l])
         tr = les[l].transform(df[l])
-        df.loc[:, l + '_feat'] = pd.Series(tr, index=df.index)
+        df.loc[:, l + '_feat'] = pd.Series(tr, index=df.index)'''
 
     labeled = df[['price'
                      , 'odometer'
                      , 'year'
                   ]
-                 + [x + "_feat" for x in labels]]
+                 + [x  for x in labels]]
+    print labeled.sample()
     return labeled
     #### Removing the outliers
     # print("-----------------\nData kept for analisys: %d percent of the entire set\n-----------------" % (
@@ -89,8 +90,24 @@ def stat():
 
 
 def model(dataset):
-    Y = dataset['price']
-    X = dataset.drop(['price'], axis='columns', inplace=False)
+    Y = dataset['price'].as_matrix()
+    #X = dataset['year'].as_matrix()
+    #X = np.append(X, dataset['odometer'].as_matrix())
+    labels = ['make', 'model', 'VIN', 'condition', 'cylinders', 'drive', 'fuel', 'color', 'size', 'title',
+              'transmission', 'type']
+    les = {}
+    vecs = None
+    for l in labels:
+        les[l] = preprocessing.LabelBinarizer()
+        les[l].fit(dataset[l])
+        with open(l+'_encoder', 'wb') as handle:
+            pickle.dump(les[l], handle, protocol=pickle.HIGHEST_PROTOCOL)
+        if vecs is None:
+            vecs = les[l].transform(dataset[l])
+        else:
+            vecs = np.hstack((vecs,les[l].transform(dataset[l])))
+    X= np.hstack((vecs, dataset['year'].values.reshape(-1,1)))
+    X= np.hstack((X, dataset['odometer'].values.reshape(-1,1)))
 
     # matplotlib.rcParams['figure.figsize'] = (12.0, 6.0)
     '''#  plt.figure()
@@ -108,6 +125,7 @@ def model(dataset):
 
     lr = LinearRegression()
     lr.fit(X_train, Y_train)
+    joblib.dump(lr, 'model')
     print ('-----Linear Regression-----')
     print 'Training Data R2:',
     print lr.score(X_train, Y_train)
@@ -160,15 +178,15 @@ def model(dataset):
     print svr.score(X_val,Y_val)'''
 
     rf = RandomForestRegressor()
-    param_grid = {"min_samples_leaf": xrange(1, 7)
-        , "min_samples_split": xrange(2, 7)
-        , "max_depth": xrange(2, 15)
-        , "n_estimators": [10, 100, 500, 1000]}
+    param_grid = {"min_samples_leaf": xrange(3, 4)
+        , "min_samples_split": xrange(3, 4)
+        , "max_depth": xrange(14, 15)
+        , "n_estimators": [500]}
 
     gs = GridSearchCV(estimator=rf, param_grid=param_grid, cv=2, n_jobs=-1, verbose=1)
     gs = gs.fit(X_train, Y_train)
     bp = gs.best_params_
-    forest = RandomForestRegressor(criterion=bp['criterion'],
+    forest = RandomForestRegressor(criterion='mse',
                                    min_samples_leaf=bp['min_samples_leaf'],
                                    min_samples_split=bp['min_samples_split'],
                                    max_depth=bp['max_depth'],
