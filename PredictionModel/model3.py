@@ -94,7 +94,7 @@ def model(dataset):
     #X = dataset['year'].as_matrix()
     #X = np.append(X, dataset['odometer'].as_matrix())
     labels = ['make', 'model', 'VIN', 'condition', 'cylinders', 'drive', 'fuel', 'color', 'size', 'title',
-              'transmission', 'type']
+              'transmission', 'type', 'year']
     les = {}
     vecs = None
     for l in labels:
@@ -106,8 +106,8 @@ def model(dataset):
             vecs = les[l].transform(dataset[l])
         else:
             vecs = np.hstack((vecs,les[l].transform(dataset[l])))
-    X= np.hstack((vecs, dataset['year'].values.reshape(-1,1)))
-    X= np.hstack((X, dataset['odometer'].values.reshape(-1,1)))
+    #vecs= np.hstack((vecs, dataset['year'].values.reshape(-1,1)))
+    X= np.hstack((vecs, dataset['odometer'].values.reshape(-1,1)))
 
     # matplotlib.rcParams['figure.figsize'] = (12.0, 6.0)
     '''#  plt.figure()

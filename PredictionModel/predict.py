@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     labels = ['make', 'model', 'VIN', 'condition', 'cylinders', 'drive', 'fuel', 'color', 'size', 'title',
-              'transmission', 'type']
+              'transmission', 'type', 'year']
     inputs={}
     inputs['make'] = args.make
     inputs['model'] = args.model
@@ -63,7 +63,7 @@ if __name__ == "__main__":
         with open(l+'_encoder', 'rb') as handle:
             encoder=pickle.load(handle)
             X = np.append(X, encoder.transform([inputs[l]])[0])
-    X = np.append(X, inputs['year'])
+    #X = np.append(X, inputs['year'])
     X = np.append(X, inputs['odometer'])
 
     model = joblib.load('model')
