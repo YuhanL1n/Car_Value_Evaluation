@@ -1,0 +1,43 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'evaluation/css/bootstrap.css' %}" />
+<script type="text/javascript" src="{% static 'evaluation/js/bootstrap.js' %}"></script>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/evaluation">
+    <img src="{% static 'evaluation/images/cu.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+    Data Mining
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/evaluation">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/datasets">Datasets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/knowledge">Knowledge</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="margin:30px">
+  <div class="row justify-content-md-center" style="margin:20px">
+    <h2>Get Your Car Value on Craigslist</h2>
+  </div>
+  <div class="row justify-content-md-center">
+    <form class="form-horizontal" action="/evaluation/" method="post">
+      {% csrf_token %}
+      {{ form.as_ul }}
+      <button type="submit" class="btn btn-primary" style="margin:20px">Submit</button>
+    </form>
+  </div>
+  {% if value %}
+    <p class="h4 text-center" style="maring:30px">Your car value is {{ value }}.</p>
+  {% endif %}
+</div>

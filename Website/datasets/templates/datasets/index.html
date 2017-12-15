@@ -1,0 +1,37 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'datasets/css/bootstrap.css' %}" />
+<script type="text/javascript" src="{% static 'datasets/js/bootstrap.js' %}"></script>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/evaluation">
+    <img src="{% static 'datasets/images/cu.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+      Data Mining
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+          <a class="nav-link" href="/evaluation">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/datasets">Datasets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/knowledge">Knowledge</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron" style="margin:60px">
+  <h1 class="display-3">Dataset from Craigslist</h1>
+  <p class="lead">Craigslist allows you to see the human desires around the world.</p>
+  <hr class="my-4">
+  <p>We start from the category interests us most — Cars.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="{% static "datasets/cars.csv" %}" role="button">Click here to download</a>
+  </p>
+</div>
